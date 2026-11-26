@@ -9,7 +9,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const ENTRY = "Rain is the sky squeezing out a big wet sponge.\nThe sponge is like the clouds holding water, but nobody squeezes them.";
+// The explanation, sharpened: one analogy only, then an honest second
+// line that names both what it maps and the hand it leaves out.
+const ENTRY = "Rain is the sky wringing out a giant sponge it dragged through the sea all week.\nIt maps the water gathering up high, then falling all at once; it leaves out the hand — nobody squeezes, because the sun does the lifting and the cold does the wringing.";
 
 // The gate's shape, checked before handing in.
 const chars = [...ENTRY].length;
